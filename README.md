@@ -1,8 +1,9 @@
 # Psycho_Gabinet
  YO SWPS 
  
-p_panel_admn/kont.html  >Admin - Konta
-p_panel_admn/rprt.html  >Admin - Raporty
+p_panel_admn/kont.html  >Admin - Kont
+
+ap_panel_admn/rprt.html  >Admin - Raporty
 
 p_panel_admn/czat.html  >Admin - Czat z użytkownikami
 p_panel_admn/sttg.html  >Admin - Ustawienia
