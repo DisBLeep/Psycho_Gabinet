@@ -1,8 +1,8 @@
 # Psycho_Gabinet
  YO SWPS 
  
-p_panel_admn/kont.html  >Admin - Kont<br>
-ap_panel_admn/rprt.html >Admin - Raporty<br>
+p_panel_admn/kont.html  >Admin - Konta<br>
+p_panel_admn/rprt.html >Admin - Raporty<br>
 p_panel_admn/czat.html  >Admin - Czat z użytkownikami<br>
 p_panel_admn/sttg.html  >Admin - Ustawienia<br>
 
@@ -24,3 +24,9 @@ p_rgst.html             >Rejestracja  <br>
 p_logn.html             >Logowanie  <br>
 dev.html                >Dev  <br>
 p_main.html             >Strona główna  <br>
+
+Od lewej: docelowy, obecny<br>
+![image](https://user-images.githubusercontent.com/102161796/204674740-9f5691a9-2a87-4b36-a9d4-26b6d75c3a40.png)
+
+![image](https://user-images.githubusercontent.com/102161796/204674836-9f3b857c-1a58-4fcf-baa8-aadbc9f94be5.png)
+
