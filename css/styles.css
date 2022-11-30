@@ -67,3 +67,14 @@
 -moz-box-shadow: 10px 0px 5px 0px rgba(177,177,177,0.75);
 z-index: 1;
 }
+
+.btn-hitler {
+  color: rgb(253, 0, 0);
+  background-color: #0dfddd;
+  border-color: #0d6efd;
+}
+.btn-hitler:hover {
+  color: #fff;
+  background-color: #d70bcd;
+  border-color: #0a58ca;
+}
