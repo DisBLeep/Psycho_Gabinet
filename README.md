@@ -1,5 +1,5 @@
 # Psycho_Gabinet
- YO SWPS 
+ YO SWPS D
  
 p_panel_admn/kont.html  >Admin - Konta
 p_panel_admn/rprt.html  >Admin - Raporty
