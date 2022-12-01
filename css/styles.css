@@ -97,9 +97,9 @@ z-index: 1;
 .list-group-item {
   position: relative;
   display: block;
-  color: #212529;
+  color: #293e92;
   text-decoration: none;
-  background-color: #fff;
+  background-color: rgb(252, 177, 177);
   /*border: 1px solid rgba(0, 0, 0, 0.125);*/
   /*ZMIANA WYGLĄDU TEXTU*/
   font-family: 'work_sansregular';
@@ -107,6 +107,7 @@ z-index: 1;
   font-size: 14px;
   font-style: normal;
 }
+
 
 .list-group-item em {
   font-style: normal;
@@ -133,7 +134,7 @@ z-index: 1;
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #0d6efd;
+  background-color: #17ced4;
   border-color: #0d6efd;
 }
 .list-group-item + .list-group-item {
