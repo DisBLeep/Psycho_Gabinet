@@ -31,11 +31,6 @@
   background-color: #5FA8D3;
   border-color: #5FA8D3;
 }
-.btn-primary:hover {
-  color: #01295F;
-  background-color: #5FA8D3;
-  border-color: #5FA8D3;
-}
 
 .footer {
   position: absolute;
@@ -70,15 +65,98 @@
 z-index: 1;
 }
 
-.btn-hitler {
-  color: rgb(253, 0, 0);
-  background-color: #0dfddd;
-  border-color: #0d6efd;
+/*LIST-GROUP-ITEM*/
+.list-group-item-action {
+  width: 100%;
+  color: #495057;
+  text-align: inherit;
 }
-.btn-hitler:hover {
+
+.list-group-item {
+  position: relative;
+  color:#01295F;
+  border: 0;
+  
+  /*ZMIANA WYGLĄDU TEXTU*/
+  font-family: 'work_sansregular';
+  font-weight: 300;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.list-group-item em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.list-group-item:hover {
+  color: #5FA8D3;
+}
+
+
+#flexCheckDefault {
+  border-width: 1px;
+  border-color: #5FA8D3;
+  border-radius: 0;
+}
+
+.btn-primary {
+  /*button*/
+  background-color: #5FA8D3;
+  border-color: #5FA8D3;
+  border-radius: 0;
+  margin-bottom: 10px;
+
+  /*text*/
   color: #fff;
-  background-color: #d70bcd;
-  border-color: #0a58ca;
+  font-family: 'work_sansregular';
+  font-weight: 700;
+  font-size: 14px;
+
+}
+.btn-primary:hover {
+  color: #5FA8D3;
+  background-color: #fff;
+  border-color: #5FA8D3;
+}
+
+h2.text-left, h2 {
+  /*tekst*/
+  color: #01295F;
+  font-family: 'work_sansregular';
+  font-weight: 600;
+  font-size: 22px;
+}
+
+h3.text-left, .form-check-label h3 {
+   /*tekst*/
+   color: #01295F;
+   opacity: 0.6;
+   font-family: 'work_sansregular';
+   font-weight: 500;
+   font-size: 16px;
+}
+
+.form-check-label em {
+  color: #01295F;
+  font-family: 'work_sansregular';
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  margin-bottom: 10px;
+} 
+
+.form-control {
+  border-width: 1px;
+  border-color: #5FA8D3;
+  border-radius: 0;
+
+  font-family: 'work_sansregular';
+  font-weight: 400;
+  font-size: 16px;
+  color: #01295F;
+  opacity: 0.6;
+  margin-bottom: 5px;
 }
 
 .img{
@@ -185,3 +263,4 @@ color: #01295F;
   left: 662px;
   top: 1625px;
 }
+
