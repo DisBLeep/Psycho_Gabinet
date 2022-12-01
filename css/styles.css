@@ -136,13 +136,26 @@ z-index: 1;
 -moz-box-shadow: 10px 0px 5px 0px rgba(177,177,177,0.75);
 z-index: 1;
 }
-.t1{
+.tp1{ /*tekst position */
   position: absolute;
   left: 11.11%;
   right: 61.22%;
   top: 40.91%;
   bottom: 33.78%;
 
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 800;class="col-12 col-md-6 text-center"
+  font-size: 43.0598px;
+  line-height: 60px;
+  /* or 140% */
+  display: flex;
+  align-items: center;
+
+color: #01295F;
+}
+
+.t1{ /*tekst */
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 800;class="col-12 col-md-6 text-center"
