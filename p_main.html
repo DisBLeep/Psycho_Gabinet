@@ -23,7 +23,7 @@
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
            <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Znajdź specjalistę</a></li>
+                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="p_dev.html">Znajdź specjalistę</a></li>
                  <li class="nav-item"><a class="nav-link active" aria-current="page" href="p_logn.html">Zaloguj się</a></li>
                  <li class="nav-item"><a class="btn btn-login btn-active" href="p_rgst.html">Zarejestruj się</a></li>
               </ul>
@@ -35,7 +35,7 @@
         <!-- Banner -->
         <div class="row banner-container">
            <!-- Banner - col1 -->
-           <div class="col-12 col-md-6 text-center"><h1 class = "t1">Jesteśmy tu dla ciebie, aby było ci lepiej</h1></div>
+           <div class="col-12 col-md-6 text-left"><h1 id="text-welcome">Jesteśmy tu dla Ciebie, aby było Ci lepiej</h1></div>
            <!-- End -->
            <!-- Banner - col2 -->
            <div class="col-md-6"><img src="images/obrazek1.png" class ="img-fluid" width = "520" height="420" ></div>
@@ -45,11 +45,28 @@
         <!-- Content -->
         <div class="row text-center mt-5">
            <h1>Centrum wiedzy</h1>
-           <div class="col-6 col-md-6 text-right"><button class="btn panel-btn btn-active" id="article" onclick="switchTab(this.id)">Button 1</button></div>
-           <div class="col-6 col-md-6 text-left"><button class="btn panel-btn btn-inactive" id="forum" onclick="switchTab(this.id)">Button 2</button></div>
+           <div class="col-6 col-md-6 text-right"><button class="btn panel-btn btn-active" id="article" onclick="switchTab(this.id)">Artykuły</button></div>
+           <div class="col-6 col-md-6 text-left"><button class="btn panel-btn btn-inactive" id="forum" onclick="switchTab(this.id)">Forum</button></div>
            <!-- Article -->
            <div id="panel-article" class="panel">Artykuły</div>
-           <!-- Article - end -->
+
+            <div class="text-left text-align: left" >
+               <h2>Przykładowy artykuł 1</h2>
+               <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+               <a href="p_dev.html" class="btn btn-primary btn-lg btn-block" role="button" id="button-forum">Czytaj dalej</a>
+               <br />
+   
+               <h2>Przykładowy artykuł 2</h2>
+               <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+               <a href="p_dev.html" class="btn btn-primary btn-lg btn-block" role="button" id="button-forum">Czytaj dalej</a>
+               <br />
+   
+               <h2>Przykładowy artykuł 3</h2>
+               <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+               <a href="p_dev.html" class="btn btn-primary btn-lg btn-block" role="button" id="button-forum">Czytaj dalej</a>
+               <!-- Article - end -->
+            </div>
+            
            <!-- Forum  -->
            <div id="panel-forum" class="panel" style="display: none">Forum</div>
            <!-- Forum - end -->
@@ -57,10 +74,10 @@
         <!-- Footer  -->
         <div class="row text-center mt-5 footer">
            <div class="col-12 col-md-5">
-              <ul>
-                 <ol>Specjaliści</ol>
-                 <ol>Forum</ol>
-                 <ol>Artykuły</ol>
+              <ul class="footer-link">
+                 <ol><a href=p_dev.html>Specjaliści</a></ol>
+                 <ol><a href=p_dev.html>Forum</a></ol>
+                 <ol><a href=p_dev.html>Artykuły</a></ol>
               </ul>
            </div>
            <div class="col-12 col-sm-2">
@@ -68,9 +85,9 @@
            </div>
            <div class="col-12 col-md-5">
               <ul>
-                 <ol>Pomoc</ol>
-                 <ol>Kontakt</ol>
-                 <ol>O nas</ol>
+                 <ol><a href=p_dev.html>Pomoc</a></ol>
+                 <ol><a href=p_dev.html>Kontakt</a></ol>
+                 <ol><a href=p_dev.html>O nas</a></ol>
               </ul>
            </div>
            <svg width="400" height="5">
