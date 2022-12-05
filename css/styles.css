@@ -235,12 +235,6 @@ h3.text-left, .form-check-label h3 {
   margin: 5% 0;
 }
 
-.sidebar {
-  box-shadow: 10px 0px 5px 0px rgba(177,177,177,0.75);
--webkit-box-shadow: 10px 0px 5px 0px rgba(177,177,177,0.75);
--moz-box-shadow: 10px 0px 5px 0px rgba(177,177,177,0.75);
-z-index: 1;
-}
 .tp1{ /*tekst position */
   position: absolute;
   left: 11.11%;
@@ -316,6 +310,6 @@ color: #01295F;
 .footer-link {
   color: #5FA8D3;
   font-family: 'work_sansregular';
-  font-weight: 700;
-  font-size: 15px;
+  font-weight: 00;
+  font-size: 14px;
 }
