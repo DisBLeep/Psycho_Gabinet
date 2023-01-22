@@ -25,7 +25,12 @@
 
                 <input class="form-control" type="text" placeholder="Email" /> 
                 <input class="form-control" type="text" placeholder="Hasło" />
-
+                
+                <form action="/your-name/" method="post">
+                    <label for="your_name">Your name: </label>
+                    <input id="your_name" type="text" name="your_name" value="{{ current_name }}">
+                    <input type="submit" value="OK">
+                </form>
 
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> <!-- wtf, jak to zmienić niezależnie od siebie?-->

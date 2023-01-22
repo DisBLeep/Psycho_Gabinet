@@ -36,6 +36,11 @@
                   </div>
 
 
+                <form method="POST" action="{% url 'panel' 'A' %}">
+                    {% csrf_token %}
+                    {{form.as_p}}
+                    <input type="submit" name="Create User">
+                </form>
 
 
                 <input class="form-control" type="text" placeholder="Imię" />
