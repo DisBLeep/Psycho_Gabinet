@@ -10,7 +10,7 @@ W całym tym Gicie odnajdujemy **TRZY WERSJE**:
    Raczej jest tam bałagan, ale jest to jedyne miejsce gdzie pokazujemy fukcjonujący loop, tokeny csrf, i podstawową (działa :D) rejestracje do modelu.
    Jednak Prace tutaj powoli grzązną, zbliża się jedna z ostatnich kosultacji.
    Teoretycznie zrobiliśmy i w miarę rozumiemy co się dzieje, ale jest straszny, nie-artystyczny, sandboxowy bałagan.
-   ZOSTAŁA ODŁĄCZONA
+   ZOSTAŁA ODŁĄCZONA przez być może konflikt ścieżek między apkami (odłączyłem i kolejna działa :))
 
 
 ![image](https://user-images.githubusercontent.com/102161796/215811491-fef3f6b3-6cca-469e-8b01-33792e968684.png)
