@@ -17,13 +17,12 @@ W całym tym Gicie odnajdujemy **TRZY WERSJE**:
 
 
 **3)** W folderze DjangoVer (...), pojawiła się apka DjanGabinet. 
-   Po konsultacji na zajęciach, za prośbą, znajduje się w miarę funkcjonalny (polinkowany tylko) kod.
-   Finalnie kończymy na potworze który jest mixem 1 & 2
+   Po konsultacji na zajęciach, za prośbą, znajduje się w miarę funkcjonalny (polinkowany) kod.
+   Finalnie kończymy na połączeniu 1 & 2
    w tej apce nie ma loopów, tokenów czy modeli, ale można przejść po stronie i nie doznać ZBYT wielkego ataku źrenic
-   zdjęcia nie działają, jak większość rzeczy które chcielibyśmy (dynamiczny panel, faktyczne logowanie...), ale nie mamy siły odtworzyć w django*
-   
-   
-   *Na html (1) poświęciliśmy trochę czasu bo czasu było dużo, teraz oddajemy karykaturę tej pracy w django, gdyż najprościej brak nam wiedzy czy jej pojemności pod koniec roku.
+   static obsługuje zdjęcia i css
+   nie ma natomiast dynamicznego panelu ani faktycznego logowanania, gdyż powoli wyczerpują się umiejętności, wiedza jak i czas.
+
 
 
 
