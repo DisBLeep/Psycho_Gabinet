@@ -22,6 +22,7 @@ W całym tym Gicie odnajdujemy **TRZY WERSJE**:
    w tej apce nie ma loopów, tokenów czy modeli, ale można przejść po stronie i nie doznać ZBYT wielkego ataku źrenic
    static obsługuje zdjęcia i css
    nie ma natomiast dynamicznego panelu ani faktycznego logowanania, gdyż powoli wyczerpują się umiejętności, wiedza jak i czas.
+   Nie jestem pewien jak dobrze zaciągnał się CSS gdyż mieliśmy kilka import()ow.
 
 
 
