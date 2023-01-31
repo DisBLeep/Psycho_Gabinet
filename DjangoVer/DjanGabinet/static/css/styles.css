@@ -318,3 +318,9 @@ color: #01295F;
   font-weight: 00;
   font-size: 14px;
 }
+/* granatowy pasek */
+.list-group-item.active { 
+  z-index: 2;
+  color: #fff;
+  border-color: #00ff2a;
+}
