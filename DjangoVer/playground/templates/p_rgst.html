@@ -36,23 +36,11 @@
                   </div>
 
 
-                <form method="POST" action="{% url 'panel' 'A' %}">
+                <form method="POST" action="{% url 'panel' %}">
                     {% csrf_token %}
                     {{form.as_p}}
                     <input type="submit" name="Create User">
                 </form>
-
-
-                <input class="form-control" type="text" placeholder="Imię" />
-                <input class="form-control" type="text" placeholder="Nazwisko" />
-                <input class="form-control" type="text" placeholder="Email" />
-                <input class="form-control" type="text" placeholder="Nr telefonu" />
-                <input class="form-control" type="text" placeholder="Adres" />
-                <input class="form-control" type="text" placeholder="Kod pocztowy" />
-                <input class="form-control" type="text" placeholder="Miasto" />
-                <input class="form-control" type="text" placeholder="Hasło" />
-                <input class="form-control" type="text" placeholder="Potwierdź Hasło" />
-
 
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
