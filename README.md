@@ -10,20 +10,19 @@ W całym tym Gicie odnajdujemy **TRZY WERSJE**:
    Raczej jest tam bałagan, ale jest to jedyne miejsce gdzie pokazujemy fukcjonujący loop, tokeny csrf, i podstawową (działa :D) rejestracje do modelu.
    Jednak Prace tutaj powoli grzązną, zbliża się jedna z ostatnich kosultacji.
    Teoretycznie zrobiliśmy i w miarę rozumiemy co się dzieje, ale jest straszny, nie-artystyczny, sandboxowy bałagan.
-   ZOSTAŁA ODŁĄCZONA
+   ZOSTAŁA ODŁĄCZONA przez być może konflikt ścieżek między apkami (odłączyłem i kolejna działa :))
 
 
 ![image](https://user-images.githubusercontent.com/102161796/215811491-fef3f6b3-6cca-469e-8b01-33792e968684.png)
 
 
 **3)** W folderze DjangoVer (...), pojawiła się apka DjanGabinet. 
-   Po konsultacji na zajęciach, za prośbą, znajduje się w miarę funkcjonalny (polinkowany tylko) kod.
-   Finalnie kończymy na potworze który jest mixem 1 & 2
+   Po konsultacji na zajęciach, za prośbą, znajduje się w miarę funkcjonalny (polinkowany) kod.
+   Finalnie kończymy na połączeniu 1 & 2
    w tej apce nie ma loopów, tokenów czy modeli, ale można przejść po stronie i nie doznać ZBYT wielkego ataku źrenic
-   zdjęcia nie działają, jak większość rzeczy które chcielibyśmy (dynamiczny panel, faktyczne logowanie...), ale nie mamy siły odtworzyć w django*
-   
-   
-   *Na html (1) poświęciliśmy trochę czasu bo czasu było dużo, teraz oddajemy karykaturę tej pracy w django, gdyż najprościej brak nam wiedzy czy jej pojemności pod koniec roku.
+   static obsługuje zdjęcia i css
+   nie ma natomiast dynamicznego panelu ani faktycznego logowanania, gdyż powoli wyczerpują się umiejętności, wiedza jak i czas.
+
 
 
 
