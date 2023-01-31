@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  {% load static %}
 <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
@@ -10,7 +10,7 @@
   <meta name="author" content="" />
   <title>PsychoGabinet</title>
   <!-- Custom CSS (includes Bootstrap 5.0)-->
-  <link href="../css/styles.css" rel="stylesheet" />
+  <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
 </head>
 
 <body>
@@ -19,17 +19,17 @@
       <!-- Sidebar-->
       <div class="col-3 sidebar">
         <div class="text-center">
-          <img src="../images/logo.png" class="img-fluid" alt="LOGO" />
+          <img src="{% static 'logo.png' %}" class="img-fluid" alt="LOGO" />
         </div>
         <!-- <div class="text-center" style ="height:100px; padding-top:20px; position:relative">Logo</div> -->
         <div class="list-group list-group-flush">
-          <a href="{% url 'panel_wizt' %}" class="list-group-item">Wizyty</a>
-          <a href="{% url 'panel_pacj' %}" class="list-group-item">Pacjenci</a>
-          <a href="{% url 'panel_czat' %}" class="list-group-item">Czat z pacjentem</a>
-          <a href="{% url 'panel_info' %}" class="list-group-item">Moje informacje</a>
-          <a href="{% url 'panel_kale' %}" class="list-group-item">Kalendarz</a>
-          <a href="{% url 'panel_cnnk' %}" class="list-group-item active">Cennik</a>
-          <a href="{% url 'panel_sttg' %}" class="list-group-item">Ustawienia</a>
+          <a href="{% url 'panel_wizt2' %}" class="list-group-item">Wizyty</a>
+          <a href="{% url 'panel_pacj2' %}" class="list-group-item">Pacjenci</a>
+          <a href="{% url 'panel_czat2' %}" class="list-group-item">Czat z pacjentem</a>
+          <a href="{% url 'panel_info2' %}" class="list-group-item">Moje informacje</a>
+          <a href="{% url 'panel_kale2' %}" class="list-group-item">Kalendarz</a>
+          <a href="{% url 'panel_cnnk2' %}" class="list-group-item active">Cennik</a>
+          <a href="{% url 'panel_sttg2' %}" class="list-group-item">Ustawienia</a>
         </div>
         <div class="list-group list-group-flush" style="bottom: 10px; position: absolute">
           <a href="{% url 'main' %}" class="list-group-item">Strona Główna</a>

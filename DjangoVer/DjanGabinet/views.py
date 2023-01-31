@@ -48,3 +48,28 @@ def panel_sttg(request):
 def panel_wizt(request):
     template = loader.get_template('p_panel_spec/wizt.html')
     return HttpResponse(template.render({},request))
+
+#VERY DIRTY to nie tak że nie było chęci, chęci było mnóstwo, czas zstał zadedykowany.
+#Pojęcia mi brak jak w tym loader.get_template podawać względnie relatywne, AAAAAAAAAAAAAAAAAAAA
+
+def panel_pacj2(request):
+    template = loader.get_template('pacj.html')
+    return HttpResponse(template.render({},request))
+def panel_czat2(request):
+    template = loader.get_template('czat.html')
+    return HttpResponse(template.render({},request))
+def panel_info2(request):
+    template = loader.get_template('info.html')
+    return HttpResponse(template.render({},request))
+def panel_kale2(request):
+    template = loader.get_template('kale.html')
+    return HttpResponse(template.render({},request))
+def panel_cnnk2(request):
+    template = loader.get_template('cnnk.html')
+    return HttpResponse(template.render({},request))
+def panel_sttg2(request):
+    template = loader.get_template('sttg.html')
+    return HttpResponse(template.render({},request))
+def panel_wizt2(request):
+    template = loader.get_template('wizt.html')
+    return HttpResponse(template.render({},request))
