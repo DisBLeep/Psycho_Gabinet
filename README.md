@@ -3,11 +3,11 @@
 W całym tym Gicie odnajdujemy **TRZY WERSJE**:
 
 **1)** Pierwsza wersja, czysty HTML+CSS Spotkamy w głównym folderze tak-o.
-   tu chyba najbardziej efekt pracy zbliżył się do spodziewanych efektów. Sprawnie i doszczętnie rozjechaliśmy klasy, ujażmiając hmtl.
+   tu chyba najbardziej efekt pracy zbliżył się do spodziewanych efektów. Sprawnie i doszczętnie rozjechaliśmy klasy, ujażmiając html.
 
 
 **2)** W folderze DjangoVer jest postawione Django, tam pojawiła się apka 'playground' gdzie bawiliśmy się w loopy czy rejestracje (ich próby)
-   Raczej jest tam bałagan, ale jest to jedyne miejsce gdzie pokazujemy fukcjonujący loop, tokeny csrf, i podstawową (działa ok?) rejestracje do modelu.
+   Raczej jest tam bałagan, ale jest to jedyne miejsce gdzie pokazujemy fukcjonujący loop, tokeny csrf, i podstawową (działa :D) rejestracje do modelu.
    Jednak Prace tutaj powoli grzązną, zbliża się jedna z ostatnich kosultacji.
    Teoretycznie zrobiliśmy i w miarę rozumiemy co się dzieje, ale jest straszny, nie-artystyczny, sandboxowy bałagan.
    ZOSTAŁA ODŁĄCZONA
